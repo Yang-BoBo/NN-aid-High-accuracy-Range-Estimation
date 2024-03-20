@@ -1,0 +1,9 @@
+# STMnet-training.py is for training the STMnet, it can also be applied for other NN architecture. however, the data structure should be changed first;
+
+# STMnet-test.py is for test, we need to change the file's name for different situation.(SHR,STS)
+
+# Quantization.py is for quantizing the trained model's weight. put the .pth file into this function.
+
+# Data-process.py is used to extract which part of the data we are going to use in the .csv file we get from matlab function, and combine them together to get the training data set.
+
+# complexityCompare.py is used for calculating the FLOPs and memorys of models, need extra libraries. 
